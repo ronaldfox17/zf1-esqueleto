@@ -1,4 +1,8 @@
+INSTALL.txt
+LICENSE.txt
+README.txt
 .buildpath
 .project
 .settings/
-zfproject.xml
+.zfproject.xml
+Thumbs.db
