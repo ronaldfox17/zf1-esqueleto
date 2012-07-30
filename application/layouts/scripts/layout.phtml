@@ -1,0 +1,14 @@
+<?php
+// Cabeçalho
+echo $this->partial('partials/header.phtml');
+
+// Barra de navegação superior
+$this->navigation()->menu()->setPartial(array('partials/top_navbar.phtml','default'));
+echo $this->navigation()->menu()->render();
+
+// Conteúdo
+echo $this->layout()->content;
+
+// Rodapé
+echo $this->partial('partials/footer.phtml');
+?>

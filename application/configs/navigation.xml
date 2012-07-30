@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<navigation>
+
+    <module-default module="default" controller="home" action="index" label="Home" title="Ir para a página inicial" id="menu-home"></module-default>
+
+</navigation>
